@@ -1,4 +1,3 @@
-Got it. Here is the corrected README with the filename changed to `screen-recorder.cpp`.
 
 ---
 
