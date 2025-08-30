@@ -1,4 +1,4 @@
-Of course. Here is the updated README with the requested attribution.
+Got it. Here is the corrected README with the filename changed to `screen-recorder.cpp`.
 
 ---
 
@@ -56,14 +56,14 @@ sudo pacman -S base-devel gtk3 ffmpeg libx11 pkg-config
 
 ## How to Compile
 
-1.  Save the code to a file named `main.cpp`.
+1.  Save the code to a file named `screen-recorder.cpp`.
 2.  Open your terminal and navigate to the directory where you saved the file.
 3.  Compile the program using the following command:
 
     ```bash
-    g++ main.cpp -o screen-recorder `pkg-config --cflags --libs gtk+-3.0`
+    g++ screen-recorder.cpp -o screen-recorder `pkg-config --cflags --libs gtk+-3.0`
     ```
-    This command compiles the C++ code (`main.cpp`), links it against the GTK+ 3 libraries (using `pkg-config` to supply the correct flags), and creates an executable file named `screen-recorder`.
+    This command compiles the C++ code (`screen-recorder.cpp`), links it against the GTK+ 3 libraries (using `pkg-config` to supply the correct flags), and creates an executable file named `screen-recorder`.
 
 ## How to Run
 
@@ -103,10 +103,6 @@ This application is a functional proof-of-concept but has room for improvement.
 *   **File Save Dialog**: Add a "Save As" button that opens a native file dialog to choose the save location and filename.
 *   **System Tray Icon**: Allow the application to be minimized to the system tray during recording.
 *   **Advanced Options**: Expose more FFmpeg settings in the UI, such as codec selection, bitrate, and pixel format.
-
-## Contributing
-
-Contributions are welcome! If you'd like to improve this screen recorder, feel free to fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
