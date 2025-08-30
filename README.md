@@ -1,6 +1,3 @@
-
----
-
 # Advanced Screen Recorder
 
 **Created by 10xRashed**
