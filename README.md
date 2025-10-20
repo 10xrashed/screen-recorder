@@ -1,5 +1,6 @@
 # Advanced Screen Recorder
 
+
 **Created by 10xRashed**
 
 A simple yet powerful screen recording application for Linux/X11 desktops, built with C++ and GTK+. This tool leverages the power of FFmpeg to capture screen activity, providing a user-friendly graphical interface for controlling the recording process.
